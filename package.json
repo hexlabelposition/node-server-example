@@ -1,0 +1,38 @@
+{
+  "name": "node-server-example",
+  "version": "0.1.0",
+  "description": "A simple server written in Node.js",
+  "type": "module",
+  "author": {
+    "name": "Vladyslav Kudriashov",
+    "email": "hexlabelposition@gmail.com",
+    "url": "https://github.com/hexlabelposition"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hexlabelposition/node-server-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hexlabelposition/node-server-example/issues"
+  },
+  "homepage": "https://github.com/hexlabelposition/node-server-example#readme",
+  "main": "/src/server.js",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env ./src/server.js",
+    "dev": "node --env-file-if-exists=.env --watch ./src/server.js",
+    "env:create": "cp .env.example .env",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "example",
+    "http",
+    "basic",
+    "nodejs",
+    "server",
+    "javascript"
+  ],
+  "engines": {
+    "node": ">=14.13.0"
+  }
+}
